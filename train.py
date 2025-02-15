@@ -1,5 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 from stable_baselines3 import PPO
 import torch as th
 from stable_baselines3.common.env_util import make_vec_env
@@ -12,7 +11,6 @@ from environment.indicators import RSI, MACD, BollingerBands, ATR
 from environment.scalers import MinMaxScaler
 from environment.reward import StandartDeviationReward 
 from environment.metrics import DifferentActions, AccountValue, AccountValueChange, MaxDrawdown, SharpeRatio, AverageWinLossRatio, WinCount, LossCount
-from environment.callbacks import RewardLogger
 
 data_source = input("Parity name : (ex: BTCUSDT_4h)")
 df = pd.read_csv(f'data/crypto/{data_source}.csv')

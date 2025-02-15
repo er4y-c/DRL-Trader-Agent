@@ -8,7 +8,6 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.10.9,<3.12"
-matplotlib = "^3.8.2"
 numpy = "^1.26.4"
 pandas = "^2.2.0"
 gymnasium = "^0.29.1"
