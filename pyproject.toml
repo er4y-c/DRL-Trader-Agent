@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rl-trader-agent-v1"
+version = "0.0.1"
+description = ""
+authors = ["Eray Aynacı <73905858+er4y-c@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10.9,<3.12"
+matplotlib = "^3.8.2"
+numpy = "^1.26.4"
+pandas = "^2.2.0"
+gymnasium = "^0.29.1"
+dynaconf = "^3.2.5"
+python-binance = "^1.0.19"
+torch = "^2.3.0"
+stable-baselines3 = "^2.3.2"
+pygame = "^2.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
