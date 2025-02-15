@@ -1,6 +1,32 @@
-/env
-poetry.lock
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+
+# Python
 __pycache__/
+*.pyc
+
+# Environment Variables
 settings.toml
 .venv
-data/
+
+# Stock data folder
+data
+
+# Trained agents
+runs
